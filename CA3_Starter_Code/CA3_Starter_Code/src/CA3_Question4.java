@@ -7,11 +7,7 @@ import java.util.Stack;
  *  Class Group:
  */
 public class CA3_Question4 {
- //write a program that reads a Java source file and produces an index of all identifiers in the file.
-    //For each identifier, print all lines with the line number in which it occurs.
-    //For simplicity we will consider eash string consisting of only letters, numbers and underscores as identifiers
-    //declare a scanner in reading from the source file and call in use delimiter.
-    //then each call to next returns an identifier.
+
     /*
         filename: name of the file to test.
      */
