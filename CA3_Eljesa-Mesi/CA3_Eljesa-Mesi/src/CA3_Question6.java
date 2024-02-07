@@ -19,28 +19,27 @@ public class CA3_Question6
     public static void main(String[] args) {
         //create queue for the blocks
         Queue<Block> blocks = new LinkedList<>();
-        //create scanner
         Scanner in = new Scanner(System.in);
-        //create command string
+        //command string
         String command;
-        //create block object
+        //block object
         Block block;
-        //create share object
+        //share object
         Share share;
-        //create total gain variable
+        //total gain variable
         double totalGain = 0;
         //create total cost variable
         double totalCost = 0;
         //create total shares variable
         int totalShares = 0;
-        //create total shares sold variable
+        //total shares sold variable
         int totalSharesSold = 0;
-        //create total shares bought variable
+        //total shares bought variable
         int totalSharesBought = 0;
             do {
             System.out.print(">");
             command = in.next();
-            if(command.equalsIgnoreCase("buy"))
+            if(command.equalsIgnoreCase("buy"))//if command is buy
             {
                 int qty = in.nextInt();
                 double price = in.nextDouble();
@@ -52,7 +51,7 @@ public class CA3_Question6
 
 
             }
-            else if(command.equals("sell"))
+            else if(command.equals("sell"))//if command is sell
             {
                 int qty = in.nextInt();
                 double price = in.nextDouble();

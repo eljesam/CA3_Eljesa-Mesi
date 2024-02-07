@@ -7,16 +7,6 @@ import java.util.Stack;
  */
 public class CA3_Question2
 {
-
-    //in a paint program , a flood fill fills all empty pixels of a drawing with a given colour,
-    //stopping whe it reaches occupied pixels.
-    //implement a simple algorithm, flood filling a 10x10 array of integers that are initially 0.
-    //push the row and column pair onto a stack. you will need to provide a simple Pair class to store the rows and columns.
-    //repeat the following operations until the stack is empty:
-    //pop off the pair from the top of the stack,
-    //if it has not yet been filled, fill the corresponding cell location with a number 1,2,3 and so on.
-    //push the coordinates of any unfilled neghbours in the north,eas,south or west direction onto the stack.
-    //When done , print the entire array.
     /*
         Starter function to create the 2D array and populate it with 0
 

@@ -10,20 +10,20 @@ import java.util.Scanner;
 public class CA3_Question5
 {
 
-
+//takeoff method
     public static void takeoff(String flightSymbol)
     {
         Queue<String> takeoff = new LinkedList<>();
         takeoff.add(flightSymbol);
         System.out.println("Flight " + flightSymbol + " is queued for takeoff");
     }
-    public static void land(String flightSymbol)
+    public static void land(String flightSymbol)//land method
     {
         Queue<String> land = new LinkedList<>();
         land.add(flightSymbol);
         System.out.println("Flight " + flightSymbol + " is queued for landing");
     }
-
+//execute the queues for takeoff or landing, prioritizing landing
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);

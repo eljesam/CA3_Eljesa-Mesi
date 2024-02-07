@@ -28,7 +28,7 @@ public class CA3_Question7
                 String company = in.next();
                 int qty = in.nextInt();
                 double price = in.nextDouble();
-                // Code to buy shares here
+                // Code to buy shares
                 Block block = new Block(qty, (int) price);
                 if(blocks.containsKey(company))
                 {
@@ -46,7 +46,7 @@ public class CA3_Question7
                 String company = in.next();
                 int qty = in.nextInt();
                 double price = in.nextDouble();
-                // Code to sell shares and calculate profit here
+                // Code to sell shares and calculate profit
                 if(blocks.containsKey(company))
                 {
                     Queue<Block> queue = blocks.get(company);
